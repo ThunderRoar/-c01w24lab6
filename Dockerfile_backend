@@ -13,7 +13,5 @@ RUN npm install
 # Copy backend source code
 COPY quirknotes/backend ./
 
-EXPOSE 4000
-
 # Command to run server backend
 CMD ["npm", "start"]
